@@ -39,5 +39,6 @@
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#345a8199",
         "titleBar.inactiveForeground": "#e7e7e799"
-    }
+    },
+    "python.formatting.provider": "black"
 }
