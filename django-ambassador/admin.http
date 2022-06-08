@@ -1,0 +1,10 @@
+POST http://localhost:8000/api/admin/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "first_name": "Carla",
+    "last_name": "Mesquita",
+    "email": "carla@gmail.com",
+    "password": "123456",
+    "password_confirm": "123456"
+}
