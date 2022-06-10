@@ -38,7 +38,7 @@ PUT http://localhost:8000/api/admin/users/info HTTP/1.1
 Content-Type: application/json
 
 {
-    "first_name": "Priscila"
+    "is_ambassador": 0
 }
 
 ### Change password
@@ -50,5 +50,10 @@ Content-Type: application/json
     "password": "12345678",
     "password_confirm": "12345678"
 }
+
+### List all ambassadors
+
+GET http://localhost:8000/api/admin/ambassadors HTTP/1.1
+Content-Type: application/json
 
 ### 
